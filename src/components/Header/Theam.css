@@ -1,0 +1,124 @@
+#theam{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    z-index: 5;
+    left: 0;
+    top: 1%;
+}
+#select_option{
+    padding: 1rem;
+    border-radius: 0 2rem 2rem 0;
+    background-color: var(--primary_color);
+    /* width: 1rem; */
+
+}
+#theam select{
+    display: block;
+    font-size: 1rem;
+    border: none;
+    margin-left: 20%;
+    background-color: var(--primary_color);
+    color: var(--secondry_color); 
+    
+
+    
+}
+#theam select:hover{
+    cursor: pointer;
+}
+#theam option{
+    display: block;
+    color: var(--secondry_color);
+    font-size: 1rem;
+}
+#background span{
+    display: inline-block;
+    padding: 1rem;
+    background-color: var(--primary_color);
+    color: var(--secondry_color);
+    border-radius: 0 2rem 2rem 0; 
+
+}
+#background span:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:1000px){
+    #theam{
+        top: 1%;
+    }
+
+    #background span{
+        padding: 0.7rem;
+        font-size: 0.7rem;
+    }
+
+    #select_option{
+        padding: 0.7rem;
+    
+    }
+    #theam select{
+        font-size: 0.7rem;
+        margin-left: 10%;        
+    }
+    #theam option{
+        font-size: 0.7rem;
+    }
+
+    
+}
+@media screen and (max-width:600px){
+    #theam{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    #background span{
+        padding: 0.4rem;
+        font-size: 0.7rem;
+    }
+
+    #select_option{
+        padding: 0.4rem;
+        border-radius: 2rem 0 0 2rem;
+    
+    }
+    #theam select{
+        font-size: 0.7rem; 
+        margin-left: 0;
+        margin-right: 3px;       
+    }
+    #theam option{
+        font-size: 0.7rem;
+        
+    }
+    
+}
+@media screen and (max-width:410px) {
+    #theam{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #background span{
+        padding: 0.4rem;
+        font-size: 0.5rem;
+    }
+
+    #select_option{
+        padding: 0.4rem;
+        border-radius: 2rem 0 0 2rem;
+    
+    }
+    #theam select{
+        font-size: 0.5rem; 
+        margin-left: 0;
+        margin-right: 3px;         
+    }
+    #theam option{
+        font-size: 0.5rem;
+    }
+    
+}

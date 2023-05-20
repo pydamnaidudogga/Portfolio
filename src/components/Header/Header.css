@@ -1,0 +1,280 @@
+#home{
+    gap: 8rem;  
+    
+}
+.container{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    height: 60%;
+  
+}
+  .info{
+    width: 64%;
+    text-align: center;
+    
+    height: 100%;
+  }
+  #my_info{
+    margin-top:15% ;
+  }
+  /* ======= the below css is for Tech and SocialMediea components =======*/
+  .Social{
+    
+    display: flex;
+    gap: 3rem;
+    width: max-content;
+    
+  }
+  .social_heading{
+    display: inline-block;
+    padding: 20px;
+    color: #1f1f1f;
+  }
+  /* ========================= End ====================================== */
+  #my_info h1{
+    color: var(--primary_color);
+  }
+  #my_info h1 span{
+    color: var(--secondry_color) !important;
+  }
+  .socialMedia{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    position: relative;
+    top: 2.5rem;
+  }
+  .socialMedia a{
+    padding: 0.7rem 0.7rem 0.3rem 0.7rem; 
+    border-radius: 50%;   
+    box-shadow: 0.1px 5px 5px  var(--secondry_color);
+    
+  }
+  .socialMedia a:hover {
+    background-color: var(--secondry_color);
+    box-shadow: 0.2px 0px 5px 0.5px var(--secondry_color);
+  }
+  
+  .photo{
+    width: 30%;
+    height: 100%;
+    /* border-radius: 50%; */
+    
+  }
+  .photo-outer-div{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    border-radius: 230px 0px 0px 230px ;
+    box-shadow: 1px 0px 5px 2px gray;
+  }
+  #my_photo{
+    width: 100%;
+    height: 90%;
+    border-radius: 50%;
+    margin-top: 35px;
+    background-color: var(--my_photo_bgcolor);
+    /* background-image: var(--my_photo);
+    background-size:cover ; */
+  }
+  .my_discription{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .my_discription p{
+    width: 83%;
+    padding: 10px;
+    
+  }
+  .my_discription span{
+    color: var(--secondry_color);
+  }
+  .typed h5{
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 0.5s steps(30, end) forwards, blinking 1s forwards;
+  }
+  .typed h1{
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    font-size: 2.3rem;
+    width: 0;
+    animation: typing 1s steps(30, end) forwards, blinking 1s forwards;
+  }
+  .typed h2{
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 1.5s steps(30, end) forwards, blinking 1s forwards;
+  }
+
+
+
+  .pulse {
+    animation: pulse 1.4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  
+  @keyframes pulse {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+  }
+    
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blinking {
+    0% {border-right-color: transparent}
+    50% {border-right-color: rgb(255, 255, 255)}
+    100% {border-right-color: transparent}
+  }
+  
+  .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width:1000px){
+
+    .Social{
+      gap:1rem ;
+    }
+    
+  }
+  @media screen and  (max-width: 600px){
+    #home{
+        gap: 1%;
+    }
+    .container{
+      flex-direction:column ;
+      height: 80%;
+      
+      
+    }
+    h1{
+      font-size: 1.5rem !important;
+    }
+    h2{
+      font-size: 1rem;
+    }
+    h5{
+      font-size: 0.7rem;
+    }
+    #my_info{
+      margin-top:5% ;
+    }
+    .info{
+      width: 100%;
+      height: 40%;
+    }
+    .socialMedia{
+      gap: 15%;
+    }
+    .socialMedia a{
+      font-size: 0.7rem;
+      padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    }
+    .Social{
+      gap:1rem ;
+    }
+    .photo{
+      /* margin-top: -50%; */
+      height: 60%;
+      width: 100%;
+    }
+   
+    .my_discription{
+      font-size: 0.6rem;
+  
+    }
+    .my_discription p{
+      width: 100%;
+      padding: 20px;
+    }
+    #my_photo{
+      width: 100%;
+      height: 100%;
+      margin-top: 0;
+    }
+    .button{
+      padding: 5px;
+      font-size: 0.6rem;
+    }
+  }
+  @media screen and (max-width: 410px){
+    #home{
+      gap: 3%;
+    }
+    .container{
+      gap: 0;
+    }
+    h1{
+      font-size: 1.5rem !important;
+    }
+    h2{
+      font-size: 1rem;
+    }
+    h5{
+      font-size: 0.7rem;
+    }
+    #my_info{
+      margin-top: 8%;
+    }
+    #contact_container {
+      gap: 0;
+    }
+    .photo{
+      text-align: center;
+    }
+    #my_photo{
+      width: 90%;
+    }
+  
+    .buttons{
+      margin: 0;
+    }
+    .button{
+      margin-top: 2%;
+      padding: 1%;
+      font-size: 0.3rem;
+    }
+    .socialMedia a {
+      font-size: 0.6rem;
+      padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+  }
+  .social_heading {
+    padding: 0.4rem;
+
+  }
+    
+  }
+  @media screen and (max-height:560px){
+  
+    #home{
+      gap: 0;
+    }
+   
+    #my_photo{
+      width: 250px;
+      height: 100%;
+    }
+    .socialMedia{
+      margin-top: -6%;
+    }
+    
+  }

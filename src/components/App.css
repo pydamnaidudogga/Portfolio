@@ -1,0 +1,88 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&family=Ubuntu:wght@700&display=swap');
+
+ 
+
+ :root{
+
+  --primary_color :#4d4d4d ;
+  --secondry_color: #17bebf;
+  --third_color:rgb(84, 84, 84);
+  --background_color:#fce6ff;
+  --my_photo_bgcolor:#17bebf;
+  --project_dataColor:black;
+
+  
+ } 
+
+
+ body{
+  /* background-color: black; */
+  background-color: var(--background_color);
+}
+.App{
+  /* background-color: black; */
+  background-color: var(--background_color);
+  font-size: large;
+}
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   outline: none;
+   list-style: none;
+   /* list-style-position: inside; */
+   color: var(--primary_color);
+   font-family: 'poppins';
+}
+
+/* ============= Global Class =================== */
+
+.flex{
+  display: flex;
+}
+section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: black; */
+  background-color: transparent;
+}
+section > h1{
+  color: var(--secondry_color);
+  padding:1rem;
+  font-size: 2.4rem;
+}
+.flex_direction_c{
+  flex-direction: column;
+}
+.text_align{
+  text-align: center;
+}
+h5{
+  color: var(--third_color);
+}
+.button{
+  font-size: 0.8rem;
+  padding: 7px;
+  background-color: var(--secondry_color);
+  border-radius: 6%;
+  box-shadow: 1px 0px 1px 1px var(--secondry_color);
+}
+
+@media screen and (max-width:1000px){
+  section>h1{
+    font-size: 2rem;
+  }
+  
+}
+@media screen  and (max-width:600px){
+  section > h1{
+    font-size: 1.5rem;
+  }
+  
+}
+
+
+/* ============ Individual Css rules ============= */
