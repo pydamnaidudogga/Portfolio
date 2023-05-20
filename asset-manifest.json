@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.8d4febe0.css",
+    "main.js": "/Portfolio/static/js/main.f22aa4c3.js",
+    "static/media/photooo.blackkk.png": "/Portfolio/static/media/photooo.blackkk.5d4f0f486f5a2d65bef2.png",
+    "static/media/interr.3D.name.png": "/Portfolio/static/media/interr.3D.name.c2615b56b5a3ca8a5ea1.png",
+    "static/media/school.3d.name.png": "/Portfolio/static/media/school.3d.name.2a6078467e5661e14c27.png",
+    "static/media/light.mode.png": "/Portfolio/static/media/light.mode.45857c353c88c0464b40.png",
+    "static/media/graduate.3D.name1.png": "/Portfolio/static/media/graduate.3D.name1.20e92c3b7df2cfe22568.png",
+    "static/media/Pydamnaidu_Dogga_resume.pdf": "/Portfolio/static/media/Pydamnaidu_Dogga_resume.aee2fd5147527e64bebf.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.8d4febe0.css.map": "/Portfolio/static/css/main.8d4febe0.css.map",
+    "main.f22aa4c3.js.map": "/Portfolio/static/js/main.f22aa4c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d4febe0.css",
+    "static/js/main.f22aa4c3.js"
+  ]
+}
