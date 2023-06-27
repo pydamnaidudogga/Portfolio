@@ -7,54 +7,26 @@ import './ProjectAnimation.css';
 const cards = [
     {
       id:'1',
-      title:'Polling System API',
-      image:'https://www.axiatadigitallabs.com/wp-content/uploads/2021/12/API-Blog-Thumbnail@2x.png',
-      discription:'Create a Question and Options to it. Adding votes to Options. Delete a Question(If it’s options have no votes). Delete an option(if the option have no votes). View a question with it’s options and all the votes given to it',
-      gitHublink:'https://github.com/pydamnaidudogga/PollingSystemAPI'
+      title:'Stopwatch',
+      image:'https://mir-s3-cdn-cf.behance.net/projects/404/a6a604151846295.Y3JvcCwxOTk5LDE1NjQsMCwyMTc.png',
+      discription:'Start timer button to start the timer. Stop timer button to stop the timer. Reset button to reset the timer.',
+      gitHublink:'https://github.com/pydamnaidudogga/Stopwatch'
 
     },
+    
+    
+    
     {
       id:'2',
-      title:'Placement Cell App',
-      image:'https://ipubuzz.com/wp-content/uploads/2020/08/placement2.jpg',
-      discription:'SignUp and SignIn pages only for employees. List of students,Add new student. List of Interviews,Form to create an interview. Allocate a student to an interview. Select an interview to view the list of all students and mark a result status from the list page itself.',
-      gitHublink:'https://github.com/pydamnaidudogga/Placement-Cell-App'
-
-    },
-    {
-      id:'3',
-      title:'CSV Viewer',
-      image:'https://play-lh.googleusercontent.com/nI4Y6Dcxxy6nbbyCBrdmUJA_W4Hg9jVJ82ARi9gS0u96gYbeU3Y7FmbxdxC4BO39ib4',
-      discription:'Home page to upload the CSV file. Display a list of all uploaded csv files on home page. There is a search box which searches on the front and also search each column and short options. Validation on the front end and server side on being able to upload only csv type of files.',
-      gitHublink:'https://github.com/pydamnaidudogga/CSV-Viewer'
-
-    },
-    {
-      id:'4',
-      title:'Ecommerce API',
-      image:'https://www.axiatadigitallabs.com/wp-content/uploads/2021/12/API-Blog-Thumbnail@2x.png',
-      discription:'POST request to  create a product. DELETE request to delete a product. UPDATE request to update a product. GET request to get the products list.',
-      gitHublink:'https://github.com/pydamnaidudogga/Ecommerce-API'
-
-    },
-    {
-      id:'5',
       title:'Drop Down',
       image:'https://cdn.sanity.io/images/qyzm5ged/blog/506d0e047e8e40b4e67fdcddf28b7f2b1fffc8dd-2138x1200.png',
       discription:'On hovering of the button, show the drop down items. The dropdown component should receive the items array to display the items in the list. On click of an option in dropdown list, close the dropdown.',
       gitHublink:'https://github.com/pydamnaidudogga/React-Dropdown'
 
     },
+    
     {
-      id:'6',
-      title:'Meals App',
-      image:'https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/b1/ff/62/b1ff623a-7bf8-83e8-c15d-17fc0017fd7a/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg',
-      discription:'Search option to get the meals list. Suggestions previous search list. Make any meal to your favourite. You can delete the meals from favorites list.',
-      gitHublink:'https://github.com/pydamnaidudogga/Meal-Finde'
-
-    },
-    {
-      id:'7',
+      id:'3',
       title:'To-Do List',
       image:'https://clickup.com/blog/wp-content/uploads/2019/01/to-do-list-apps.png',
       discription:'Create a task with date,category and Discription. The tasks are stored in Mongodb database. Delete the tasks after completion.',
@@ -62,11 +34,60 @@ const cards = [
 
     },
     {
+      id:'4',
+      title:'Meals App',
+      image:'https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/b1/ff/62/b1ff623a-7bf8-83e8-c15d-17fc0017fd7a/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg',
+      discription:'Search option to get the meals list. Suggestions previous search list. Make any meal to your favourite. You can delete the meals from favorites list.',
+      gitHublink:'https://github.com/pydamnaidudogga/Meal-Finde'
+
+    },
+    {
+      id:'5',
+      title:'CSV Viewer',
+      image:'https://play-lh.googleusercontent.com/nI4Y6Dcxxy6nbbyCBrdmUJA_W4Hg9jVJ82ARi9gS0u96gYbeU3Y7FmbxdxC4BO39ib4',
+      discription:'Home page to upload the CSV file. Display a list of all uploaded csv files on home page. There is a search box which searches on the front and also search each column and short options. Validation on the front end and server side on being able to upload only csv type of files.',
+      gitHublink:'https://github.com/pydamnaidudogga/CSV-Viewer'
+
+    },
+    {
+      id:'6',
+      title:'Ecommerce API',
+      image:'https://www.axiatadigitallabs.com/wp-content/uploads/2021/12/API-Blog-Thumbnail@2x.png',
+      discription:'POST request to  create a product. DELETE request to delete a product. UPDATE request to update a product. GET request to get the products list.',
+      gitHublink:'https://github.com/pydamnaidudogga/Ecommerce-API'
+
+    },
+    {
+      id:'7',
+      title:'Polling System API',
+      image:'https://www.axiatadigitallabs.com/wp-content/uploads/2021/12/API-Blog-Thumbnail@2x.png',
+      discription:'Create a Question and Options to it. Adding votes to Options. Delete a Question(If it’s options have no votes). Delete an option(if the option have no votes). View a question with it’s options and all the votes given to it',
+      gitHublink:'https://github.com/pydamnaidudogga/PollingSystemAPI'
+
+    },
+    {
       id:'8',
-      title:'Stopwatch',
-      image:'https://mir-s3-cdn-cf.behance.net/projects/404/a6a604151846295.Y3JvcCwxOTk5LDE1NjQsMCwyMTc.png',
-      discription:'Start timer button to start the timer. Stop timer button to stop the timer. Reset button to reset the timer.',
-      gitHublink:'https://github.com/pydamnaidudogga/Stopwatch'
+      title:'Placement Cell App',
+      image:'https://ipubuzz.com/wp-content/uploads/2020/08/placement2.jpg',
+      discription:'SignUp and SignIn pages only for employees. List of students,Add new student. List of Interviews,Form to create an interview. Allocate a student to an interview. Select an interview to view the list of all students and mark a result status from the list page itself.',
+      gitHublink:'https://github.com/pydamnaidudogga/Placement-Cell-App'
+
+    },
+    
+    {
+      id:'9',
+      title:'Vaccine Rigister API',
+      image:'https://www.axiatadigitallabs.com/wp-content/uploads/2021/12/API-Blog-Thumbnail@2x.png',
+      discription:'User Rigister and SignIn.Admin logIn username:Pydamnaidu and password:pydamnaidu@dogga.Schemas for Admin, slots and User.Slot book for vaccine.Update slot.get list of all users who are rigisterd for the vaccine',
+      gitHublink:'https://github.com/pydamnaidudogga/Backend_API_Vaccine_Rigister'
+
+    },
+    {
+      id:'10',
+      title:'Guriji-Astro',
+      image:'https://play-lh.googleusercontent.com/hFA7RhJKGBsmoPIhTskv-LOG3q8RjqvBj_AH2WUXFnVb32kiGSTx9lur_BahD68qT6aG',
+      discription:'UI design',
+      gitHublink:'https://github.com/pydamnaidudogga/Guriji-Astro'
 
     }
   ]
