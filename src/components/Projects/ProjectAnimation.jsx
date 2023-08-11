@@ -81,14 +81,6 @@ const cards = [
       discription:'User Rigister and SignIn.Admin logIn username:Pydamnaidu and password:pydamnaidu@dogga.Schemas for Admin, slots and User.Slot book for vaccine.Update slot.get list of all users who are rigisterd for the vaccine',
       gitHublink:'https://github.com/pydamnaidudogga/Backend_API_Vaccine_Rigister'
 
-    },
-    {
-      id:'10',
-      title:'Guriji-Astro',
-      image:'https://play-lh.googleusercontent.com/hFA7RhJKGBsmoPIhTskv-LOG3q8RjqvBj_AH2WUXFnVb32kiGSTx9lur_BahD68qT6aG',
-      discription:'UI design',
-      gitHublink:'https://github.com/pydamnaidudogga/Guriji-Astro'
-
     }
   ]
 
