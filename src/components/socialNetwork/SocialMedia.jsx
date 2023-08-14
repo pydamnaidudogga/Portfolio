@@ -6,7 +6,7 @@ function SocialMedia() {
   return (
     <div>
         <div className='Social'>
-           <a rel="noreferrer" href="https://www.linkedin.com/in/dogga-pydamnaidu-998a65226/" target='_blank'><FiLinkedin /></a>
+           <a rel="noreferrer" href="https://www.linkedin.com/in/pydamnaidudogga" target='_blank'><FiLinkedin /></a>
            <a rel="noreferrer" href="https://"><FiFacebook /></a>
            <a rel="noreferrer" href="https://www.instagram.com/pydamnaidu_dogga/" target='_blank'><FiInstagram /></a>
         </div>
